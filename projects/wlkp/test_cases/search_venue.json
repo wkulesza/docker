@@ -1,0 +1,45 @@
+{
+  "name": "/v1/search venues",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "in": {
+        "text": "lawica"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Lotnisko Poznań-Ławica",
+            "country_a": "POL",
+            "country": "Polska",
+            "region": "Greater Poland",
+            "region_a": "WP",
+            "locality": "Poznań"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "in": {
+        "text": "Lotnisko Ławica"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Lotnisko Poznań-Ławica",
+            "country_a": "POL",
+            "country": "Polska",
+            "region": "Greater Poland",
+            "region_a": "WP",
+            "locality": "Poznań"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -52,7 +52,7 @@
     "openaddresses": {
       "datapath": "/data/openaddresses",
       "files": [
-        "pl/countrywide.csv"
+        "pl/wielkopolskie.csv"
       ]
     },
     "polyline": {
@@ -64,7 +64,7 @@
       "importPostalcodes": true,
       "countryCode": "PL",
       "importPlace": [
-        "85632605"
+        "85633723"
       ]
     }
   }
